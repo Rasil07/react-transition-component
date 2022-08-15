@@ -1,0 +1,13 @@
+.toast-container {
+  background: #ddd;
+  border-radius: 0.2rem;
+  display: flex;
+  width: 10rem;
+  min-height: 4rem;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
