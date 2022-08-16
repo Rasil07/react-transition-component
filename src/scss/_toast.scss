@@ -1,3 +1,5 @@
+@use "animation";
+
 .toast-container {
   background: #ddd;
   border-radius: 0.2rem;
@@ -10,4 +12,5 @@
   position: absolute;
   top: 20px;
   right: 20px;
+  animation: bounceInRight 1.5s infinite;
 }
